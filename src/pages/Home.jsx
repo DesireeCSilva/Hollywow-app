@@ -1,11 +1,11 @@
 import React from 'react'
-import CardAmelie from '../components/CardAmelie'
+import ButtonAdd from '../components/ButtonAdd'
 
 const Home = () => {
   return (
     <>
       <div>Mi página Home</div>
-      <CardAmelie />
+      <ButtonAdd />
     </>
   )
 }
