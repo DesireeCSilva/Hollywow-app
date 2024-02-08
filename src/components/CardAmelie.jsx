@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardAmelie = () => {
   return (
-    <div>Mi página de CardAmelie</div>
+    <div>CardAmelie</div>
   )
 }
 
