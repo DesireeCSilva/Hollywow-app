@@ -1,0 +1,21 @@
+.button-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(156, 50, 92);
+    border: 2px solid rgb(206, 164, 54);
+    border-radius: 50px;
+    font-family:  "Roboto", sans-serif;
+    color:rgb(206, 164, 54);
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .right-section {
+        margin-top: 10px;
+    }
+}

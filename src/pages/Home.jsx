@@ -1,11 +1,13 @@
 import React from 'react'
-import ButtonAdd from '../components/ButtonAdd'
+import Nav from '../components/Nav/Nav.jsx';
+import Footer from '../components/Footer/Footer.jsx';
 
 const Home = () => {
   return (
     <>
-      <div>Mi página Home</div>
-      <ButtonAdd />
+      <Nav/>
+      <h1>GALERÍA</h1>
+      <Footer/>
     </>
   )
 }

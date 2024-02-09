@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './ButtonAdd.css';
 
 const ButtonAdd = () => {
   return (
-    <button>Añadir póster</button>
+    <button className="button-add">Añadir póster</button>
   )
 }
 
