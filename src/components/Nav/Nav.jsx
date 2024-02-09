@@ -7,12 +7,15 @@ import ButtonAdd from '../buttonAdd/ButtonAdd.jsx';
 const Nav = () => {
   return (
 <nav className="nav">
-<div className="left-section">
+  <div className="left-section">
+    <div className="logo-container">
         <img src={Logo} alt="Logo de la empresa" className="logo" />
-      </div>
-      <div className="right-section">
-        <ButtonAdd/>
-      </div>
+    </div>
+  </div>
+
+  <div className="right-section">
+    <ButtonAdd/>
+  </div>
 </nav>
   )
 }

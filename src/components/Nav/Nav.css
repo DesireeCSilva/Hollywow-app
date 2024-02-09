@@ -6,6 +6,16 @@
     background-color: black;
 }
 
+.logo-container {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
 
   /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
