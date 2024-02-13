@@ -26,6 +26,25 @@ const PosterInfo = styled.div`
   text-align: center;
 `;
 
+const ButtonDelete = styled.button`
+  background-color: #9C325C;
+  border-color: #CEA436;
+  border-radius: 6px;
+  color:#CEA436;
+  width: 91px;
+  height: 28px;
+  margin-bottom: 10%;
+  `;
+
+  const ButtonEdit = styled.button`
+  background-color: #CEA436; 
+  border-color: #9C325C;
+  border-radius: 6px;
+  color:#9C325C;
+  width: 91px;
+  height: 28px;
+  `;
+
 const Card = ({ posters }) => {
     // const { imageUrl, name, director, year } = poster;
     // console.log(poster);
@@ -42,11 +61,13 @@ const Card = ({ posters }) => {
           <p className="poster-card__director">Director: {poster.director}</p>
           <p className="poster-card__year">Year: {poster.year}</p>
         </PosterInfo>
+        <ButtonDelete className="button-delete">DELETE</ButtonDelete>
+        <ButtonEdit className="button-edit">EDIT</ButtonEdit>
       </PosterCard>
       </>
     );
     })}
-  
+   
     </>
     );
 };
