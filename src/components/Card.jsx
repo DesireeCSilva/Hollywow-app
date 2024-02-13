@@ -61,7 +61,7 @@ const Card = ({ posters }) => {
                     <p className="poster-card__director">Director: {poster.director}</p>
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
-                <ButtonDelete className="button-delete">DELETE</ButtonDelete>
+                <ButtonDelete onClick={deletePoster} className="button-delete">DELETE</ButtonDelete>
                 <ButtonEdit className="button-edit">EDIT</ButtonEdit>
             </PosterCard>
         </>
