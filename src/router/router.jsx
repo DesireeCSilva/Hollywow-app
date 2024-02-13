@@ -1,15 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../components/Home";
-import Contact from "../components/Contact";
+import HomePage from "../pages/HomePage";
+import { getPosters } from "../services/posterServices"; 
+
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home/>,
-    },
-    {
-        path: "/contact",
-        element: <Contact/>,
+        element: <HomePage/>,
+        loader: getPosters
     }
   ]);
 

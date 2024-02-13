@@ -1,0 +1,23 @@
+import { useLoaderData } from 'react-router-dom';
+import Card from '../components/Card';
+
+
+const HomePage = () => {
+    const posters = useLoaderData();
+    
+    return (
+    <>
+    {/* <Nav/> */}
+    <div className="main-container">
+        <img src="src\assets\images\Cartelera-home.png" className="cartelera-home"/>
+        <h1 className="title">GALERÍA</h1>
+        <section>
+        <Card posters={posters}/>
+        </section>
+    </div>
+    {/* <Footer/> */}
+    </>
+    )
+}
+
+export default HomePage
