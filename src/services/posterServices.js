@@ -21,7 +21,7 @@ const updatePosters = () => {
 //Petición DELETE
 
 export const deletePosters = async (id) => {
-    const result = await fetch('http://localhost:3000/poster/${id}',
+    const result = await fetch(`http://localhost:3000/poster/${id}`,
     {method: "DELETE"})
     return result
 }
