@@ -34,6 +34,9 @@ const ButtonDelete = styled.button`
   width: 91px;
   height: 28px;
   margin-bottom: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
   `;
 
   const ButtonEdit = styled.button`
@@ -43,6 +46,7 @@ const ButtonDelete = styled.button`
   color:#9C325C;
   width: 91px;
   height: 28px;
+  font-weight: bold;
   `;
 
 const Card = ({ posters }) => {
