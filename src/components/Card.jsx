@@ -18,6 +18,7 @@ const PosterImage = styled.img`
     max-width: 50%;
     height: auto;
     object-fit: cover;
+    border: 1em solid white;
     border-radius: 5px;
     margin-bottom: 10px;
 `;
@@ -34,7 +35,7 @@ const ButtonDelete = styled.button`
     color:#CEA436;
     width: 91px;
     height: 28px;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 `;
 
 const ButtonEdit = styled.button`
