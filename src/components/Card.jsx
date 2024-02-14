@@ -29,23 +29,27 @@ const PosterInfo = styled.div`
 `;
 
 const ButtonDelete = styled.button`
-    background-color: #9C325C;
-    border-color: #CEA436;
-    border-radius: 6px;
-    color:#CEA436;
-    width: 91px;
-    height: 28px;
-    margin-bottom: 2%;
-`;
+  background-color: #9C325C;
+  border-color: #CEA436;
+  border-radius: 6px;
+  color:#CEA436;
+  width: 91px;
+  height: 28px;
+  margin-bottom: 2%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  `;
 
-const ButtonEdit = styled.button`
-    background-color: #CEA436; 
-    border-color: #9C325C;
-    border-radius: 6px;
-    color:#9C325C;
-    width: 91px;
-    height: 28px;
-`;
+  const ButtonEdit = styled.button`
+  background-color: #CEA436; 
+  border-color: #9C325C;
+  border-radius: 6px;
+  color:#9C325C;
+  width: 91px;
+  height: 28px;
+  font-weight: bold;
+  `;
 
 const Card = ({ posters }) => {
     const clickDelete = async (id) => {
