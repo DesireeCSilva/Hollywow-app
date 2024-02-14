@@ -8,7 +8,7 @@ export const getPosters = async () => {
 
 //Petición POST
 
-const createPosters = () => {
+const createPoster = () => {
     
 }
 
