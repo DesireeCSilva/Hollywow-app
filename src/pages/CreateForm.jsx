@@ -10,7 +10,7 @@ const CreateForm = () => {
 	
     return <div>
         <h2>Añade un nuevo póster</h2>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form onSubmit={handleSubmit(onSubmit)} >
             {/* <div>
                 <img></img>
                 <input type="url" {...register('image')} />
