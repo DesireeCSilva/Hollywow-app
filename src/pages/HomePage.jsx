@@ -1,4 +1,5 @@
 import { useLoaderData } from 'react-router-dom';
+// import Nav from '../components/Nav';
 import Card from '../components/Card';
 
 

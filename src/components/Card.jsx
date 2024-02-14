@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { deletePoster } from '../services/posterServices';
 
 const PosterCard = styled.div`
     background-color: black;
@@ -46,13 +47,13 @@ const ButtonEdit = styled.button`
 `;
 
 const Card = ({ posters }) => {
-    // const { imageUrl, name, director, year } = poster;
-    // console.log(poster);
+    const clickDelete = async (id) => {
+            const result = await deletePoster(id);
+    };
     
     return ( 
-
-    <>
-        {posters.map(poster => { return ( 
+    <div>
+        {posters.map(poster => ( 
         <>
             <PosterCard key={poster.id} className="poster-card">
                 <PosterImage src={poster.imageUrl} alt={poster.name} className="poster-card__image" />
@@ -61,13 +62,12 @@ const Card = ({ posters }) => {
                     <p className="poster-card__director">Director: {poster.director}</p>
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
-                <ButtonDelete onClick={deletePoster} className="button-delete">DELETE</ButtonDelete>
+                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">DELETE</ButtonDelete>
                 <ButtonEdit className="button-edit">EDIT</ButtonEdit>
             </PosterCard>
         </>
-        );
-        })}
-    </>
+        ))}
+    </div>
     );
 };
 
