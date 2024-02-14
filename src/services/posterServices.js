@@ -8,27 +8,22 @@ export const getPosters = async () => {
 
 //Petición POST
 
-export const createPoster = async () => {
-    const formPoster = document.getElementsByClassName("posters-form");
-
-    const imageUrlValue = formPoster.elements[0].value;
-    const nameValue = formPoster.elements[1].value;
-    const directorValue = formPoster.elements[2].value;
-    const yearValue = formPoster.elements[3].value;
-
+export const createPoster = async ({ imageUrl, name, director, year }) => {
     const newPoster = {
-        "imageUrl": imageUrlValue,
-        "name": nameValue,
-        "director": directorValue,
-        "year": yearValue,
+        imageUrl,
+        name,
+        director,
+        year,
     };
+
+    console.log(newPoster);
 
     const result = await fetch(`http://localhost:3000/posters`, {
         method: "POST",
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(newPoster),
     });
-};
+}
 
 //Petición UPDATE
 

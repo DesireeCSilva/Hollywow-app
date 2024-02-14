@@ -1,9 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import { getPosters } from "../services/posterServices"; 
-// import Card from "../components/Card";
-// import { deletePosters } from "../services/posterServices";
-import CreateForm from "../pages/CreateForm";
+import CreateForm from '../pages/CreateForm';
 
 
 const router = createBrowserRouter([
