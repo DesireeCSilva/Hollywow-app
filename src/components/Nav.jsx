@@ -1,15 +1,22 @@
-import React from 'react'
+import React from 'react';
+import './Nav.css';
+//import Logo from '../../assets/images/Logo.png';
+//import ButtonAdd from '../buttonAdd/ButtonAdd.jsx';
+
 
 const Nav = () => {
   return (
-<nav class="menu">
-  <ul>
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Sobre nosotros</a></li>
-    <li><a href="#">Contacto</a></li>
-  </ul>
+<nav className="nav">
+  <div className="left-section">
+    <div className="logo-container">
+        <img src={Logo} alt="Logo de la empresa" className="logo" />
+    </div>
+  </div>
+
+  <div className="right-section">
+    {/* <ButtonAdd/> */}
+  </div>
 </nav>
-    
   )
 }
 

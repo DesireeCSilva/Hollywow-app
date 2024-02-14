@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.logo-container {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+
+  /* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+.navbar {
+    flex-direction: column; /* Cambia a dirección de columna en dispositivos móviles */
+    }
+
+.right-section {
+    margin-top: 10px; /* Ajusta el espacio entre la imagen y el botón en dispositivos móviles */
+    }
+}
