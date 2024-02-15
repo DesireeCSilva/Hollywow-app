@@ -57,9 +57,9 @@ const Card = ({ posters }) => {
     };
     
     return ( 
-    <div>
-        {posters.map(poster => ( 
-        <>
+    <>
+        {posters.map(poster =>  ( 
+        < div key={poster.id}>
             <PosterCard key={poster.id} className="poster-card">
                 <PosterImage src={poster.imageUrl} alt={poster.name} className="poster-card__image" />
                 <PosterInfo className="poster-card__info">
@@ -70,9 +70,9 @@ const Card = ({ posters }) => {
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">DELETE</ButtonDelete>
                 <ButtonEdit className="button-edit">EDIT</ButtonEdit>
             </PosterCard>
-        </>
+        </div>
         ))}
-    </div>
+    </>
     );
 };
 

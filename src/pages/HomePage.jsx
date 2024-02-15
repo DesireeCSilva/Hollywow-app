@@ -1,5 +1,4 @@
 import { useLoaderData } from 'react-router-dom';
-//import Nav from '../components/Nav';
 import Card from '../components/Card';
 
 
@@ -8,7 +7,6 @@ const HomePage = () => {
     
     return (
     <>
-    {/* {<Nav/>} */}
     <div className="main-container">
         <img src='src\assets\images\fotopelis.jpg' className="fotopelis"/>
         <img src='src\assets\images\carterela.png' className="cartel"/>
@@ -17,7 +15,6 @@ const HomePage = () => {
         <Card posters={posters}/>
         </section>
     </div>
-    {/* {<Footer/>} */}
     </>
     )
 }
