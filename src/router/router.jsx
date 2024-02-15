@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { LayoutPublic } from "../components/LayoutPublic";
+import LayoutPublic from "../components/LayoutPublic";
 import HomePage from "../pages/HomePage";
 import { getPosters } from "../services/posterServices"; 
 import CreateForm from "../pages/CreateForm";
@@ -12,19 +12,19 @@ export const router = createBrowserRouter([
         element: <LayoutPublic/>,
         children: [
             {
-                path: "/home",
+                path: "/",
                 element: <HomePage/>,
                 loader: getPosters
             },
             {
                 path: "/create",
-                element: <CreateForm/>,
+                element: <CreateForm/>
             },
             {
                 path: "/update",
-                element: <UpdateForm/>, 
+                element: <UpdateForm/>
             },
-        ],
+        ]
     },
 ]);
 

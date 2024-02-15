@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
+import Nav from "./Nav";
+import Footer from "./Footer";
 
 const LayoutPublic = () => {
     return (
         <div>
             <Nav/>
-            <main>
-                <Outlet/>
-            </main>
+            <Outlet/>
             <Footer/>
         </div>
     );

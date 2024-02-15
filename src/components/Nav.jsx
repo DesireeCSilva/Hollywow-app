@@ -1,6 +1,6 @@
 import React from 'react';
-import './Nav.css';
-//import Logo from '../../assets/images/Logo.png';
+import '../components/Nav.css';
+import Logo from '../assets/images/Logo.png';
 //import ButtonAdd from '../buttonAdd/ButtonAdd.jsx';
 
 
