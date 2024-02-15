@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 body {
 font-family: "Montserrat", sans-serif;
 background-image: url(./assets/images/Background.jpg);
@@ -11,4 +15,12 @@ background-image: url(./assets/images/Background.jpg);
  font-size: 400%;
  display: flex;
  justify-content: center;
+}
+
+.cartel{
+ position: relative;
+ top: -233px;
+ right: -433px;
+ width: 34%;
+ height: 157px;
 }
