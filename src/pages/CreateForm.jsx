@@ -5,8 +5,8 @@ import { createPoster } from '../services/posterServices';
 const CreateForm = () => {
     const { register, handleSubmit } = useForm();
 
-    const onSubmit = async (data) => {
-        await createPoster(data);
+    const onSubmit = async (newPoster) => {
+        await createPoster(newPoster);
     };
 
     return (
