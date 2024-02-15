@@ -10,7 +10,7 @@ const HomePage = () => {
     <>
     {/* {<Nav/>} */}
     <div className="main-container">
-        <img src='src\assets\images\Cartelera-home.png' className="cartelera-home"/>
+        <img src='src\assets\images\fotopelis.jpg' className="fotopelis"/>
         <h1 className="title">GALERÍA</h1>
         <section>
         <Card posters={posters}/>
