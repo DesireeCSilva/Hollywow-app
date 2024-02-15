@@ -6,3 +6,9 @@ background-image: url(./assets/images/Background.jpg);
 .fotopelis{
     width: 100%;
 }
+
+.title{
+ font-size: 400%;
+ display: flex;
+ justify-content: center;
+}

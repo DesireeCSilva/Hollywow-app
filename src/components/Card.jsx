@@ -15,7 +15,7 @@ const PosterCard = styled.div`
 `;
 
 const PosterImage = styled.img`
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
     border: 1em solid white;
