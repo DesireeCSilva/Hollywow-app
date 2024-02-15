@@ -5,7 +5,7 @@ import { deletePoster } from '../services/posterServices';
 const PosterCard = styled.div`
     background-color: black;
     border-radius: 10px;
-    padding: 50px;
+    padding: 40px;
     margin: 50px;
     margin-right: 500px;
     margin-left: 500px;
@@ -15,10 +15,10 @@ const PosterCard = styled.div`
 `;
 
 const PosterImage = styled.img`
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
-    border: 1em solid white;
+    border: 0.5em solid white;
     border-radius: 5px;
     margin-bottom: 10px;
 `;
