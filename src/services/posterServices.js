@@ -8,8 +8,21 @@ export const getPosters = async () => {
 
 //Petición POST
 
-const createPosters = () => {
-    
+export const createPoster = async ({ imageUrl, name, director, year }) => {
+    const newPoster = {
+        imageUrl,
+        name,
+        director,
+        year,
+    };
+
+    console.log(newPoster);
+
+    const result = await fetch(`http://localhost:3000/posters`, {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(newPoster),
+    });
 }
 
 //Petición UPDATE
