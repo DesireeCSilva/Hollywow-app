@@ -12,3 +12,11 @@ background-image: url(./assets/images/Background.jpg);
  display: flex;
  justify-content: center;
 }
+
+.cartel{
+ position: relative;
+ top: -233px;
+ right: -433px;
+ width: 34%;
+ height: 157px;
+}
