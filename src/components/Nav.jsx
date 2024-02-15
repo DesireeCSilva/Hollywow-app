@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/Nav.css';
 import Logo from '../assets/images/Logo.png';
-//import ButtonAdd from '../buttonAdd/ButtonAdd.jsx';
+import ButtonAdd from '../components/ButtonAdd';
 
 
 const Nav = () => {
@@ -14,7 +14,7 @@ const Nav = () => {
   </div>
 
   <div className="right-section">
-    {/* <ButtonAdd/> */}
+    <ButtonAdd/>
   </div>
 </nav>
   )
