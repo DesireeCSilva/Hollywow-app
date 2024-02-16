@@ -34,7 +34,7 @@ const UpdateForm = () => {
                     <label>Año</label>
                     <input type="number" {...register('year', { required: true })} />
                 </div>
-                <input type="submit" value="Añadir Póster" />
+                <input type="submit" value="Editar Póster" />
             </form>
         </div>
     );
