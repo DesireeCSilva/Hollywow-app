@@ -10,7 +10,7 @@ const CreateForm = () => {
     };
 
     return (
-        <div>
+        <div className='form'>
             <h2>Añade un nuevo póster</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>

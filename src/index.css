@@ -21,3 +21,11 @@ background-image: url(./assets/images/Background.jpg);
 .right-section {
     width: 10%;
 }
+
+.form{
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 30%;
+    
+}
+
