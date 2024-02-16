@@ -1,10 +1,12 @@
 import React from 'react';
 import './ButtonAdd.css';
+import { Link } from 'react-router-dom';
+import CreateForm from '../pages/CreateForm';
 
-const ButtonAdd = () => {
+const ButtonAdd = (url) => {
   return (
-    <button className="button-add">Añadir póster</button>
+    <Link to="http://localhost:5173/create" className="button-add" url>Añadir póster</Link>
   )
 }
 
-export default ButtonAdd
+export default ButtonAdd;
