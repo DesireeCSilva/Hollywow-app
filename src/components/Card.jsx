@@ -35,6 +35,7 @@ const ButtonDelete = styled.button`
   color:#CEA436;
   width: 91px;
   height: 28px;
+  margin-top: 5%;
   margin-bottom: 2%;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
