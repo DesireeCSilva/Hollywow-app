@@ -25,7 +25,14 @@ background-image: url(./assets/images/Background.jpg);
 .form{
     display: flex;
     background-color: darkgoldenrod;
-    width: 30%;
+    justify-content: center;
+    padding: 10%;
+    width: 40%;
+    position: relative;
+    right: -21%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
     
 }
 
