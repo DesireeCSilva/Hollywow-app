@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
                 element: <CreateForm/>
             },
             {
-                path: "/update/:id",
+                path: "/update",
                 element: <UpdateForm/>
             },
         ]
