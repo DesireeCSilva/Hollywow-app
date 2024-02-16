@@ -11,7 +11,7 @@ export const getPosters = async () => {
 export const onePoster = async () => {
     const response = await fetch(`http://localhost:3000/posters/${id}`);
     const data = await response.json();
-    return data;
+    return   data;
 }
 
 //Petición POST
