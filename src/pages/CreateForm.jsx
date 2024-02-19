@@ -11,9 +11,12 @@ const CreateForm = () => {
 
     return (
         <div className='formAdd'>
+            <div>
+                <img src="../src/assets/images/Edita.png" className='Edita'></img> 
+            </div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
-                    <label>Imagen</label>
+                    <label className='image'>Imagen</label>
                     <input type="url" {...register('imageUrl', { required: true })} />
                 </div>
                 <div>
