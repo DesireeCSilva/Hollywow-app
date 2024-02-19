@@ -22,22 +22,8 @@ background-image: url(./assets/images/Background.jpg);
     width: 10%;
 }
 
-/* .form{
-    display: flex;
-    background-color: darkgoldenrod;
-    justify-content: center;
-    padding: 10%;
-    width: 40%;
-    position: relative;
-    right: -21%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    flex-direction: column;
-    
-} */
-
 .formAdd {
-    background-color: #cccccc8c;
+    background-image: url(../src/assets/images/cinemac.jpg);
     border-radius: 10px;
     border-color: black;
     border: 3px solid #000000;
@@ -48,13 +34,17 @@ background-image: url(./assets/images/Background.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 
-h2 {
-    margin-bottom: 20%;
-    
+.Edita {
+   width: 60%;
+   height: 60%;
+   padding: 24%;
+   margin-top: -20%;
+   display: flex;
+   align-items: center;
 }
-
 
 input {
     width: 300px;
@@ -62,9 +52,10 @@ input {
     flex-direction: column;
     margin-bottom: 20px;
     border-radius: 6px;
-    height: 25px;
+    height: 30px;
     color: white;
     background-color: black;
+    border-color:#CEA436;
 }
 
 .buttonAdd {
@@ -72,11 +63,13 @@ input {
     display: flex;
     justify-content: center;
     margin-left: 25%;
-    margin-top: 30%;
+    margin-top: 20%;
     background-color: black;
-    padding: 5%;
+    padding: 7%;
     color: #CEA436;
-    border-radius: 6px;
+    border-radius: 15px;
     border-color: #CEA436;
+    border-width: 3px;
     font-weight: bold;
+    font-size: medium;
 }

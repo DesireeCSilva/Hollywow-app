@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(156, 50, 92);
+    background-color: black;
     border: 2px solid rgb(206, 164, 54);
-    border-radius: 50px;
+    border-radius: 40px;
     font-family:  "Roboto", sans-serif;
     color:rgb(206, 164, 54);
     padding: 10px;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
