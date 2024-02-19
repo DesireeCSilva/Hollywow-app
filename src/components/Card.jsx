@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { deletePoster } from '../services/posterServices';
-import { onePoster } from '../services/posterServices';
+import { getOnePoster } from '../services/posterServices';
 
 
 const PosterCard = styled.div`
@@ -59,7 +59,7 @@ const Card = ({ posters }) => {
             const result = await deletePoster(id);
     };
     const clickEdit = async (id) => {
-        const result = await onePoster (id);
+        const result = await getOnePoster (id);
     };
 
     return ( 
