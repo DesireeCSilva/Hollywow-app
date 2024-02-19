@@ -37,13 +37,13 @@ background-image: url(./assets/images/Background.jpg);
     font-weight: bold;
 }
 
-.Edita {
-   width: 65%;
-   height: 60%;
-   padding: 24%;
+.Añade {
+   width: 70%;
+   height: 100%;
+   padding: 23%;
    margin-top: -20%;
-   display: flex;
-   align-items: center;
+   position: relative;
+   right: 8%;
 }
 
 input {

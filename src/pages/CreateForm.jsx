@@ -12,7 +12,7 @@ const CreateForm = () => {
     return (
         <div className='formAdd'>
             <div>
-                <img src="../src/assets/images/Edita.png" className='Edita'></img> 
+                <img src="../src/assets/images/Añade-pelicula.png" className='Añade'></img> 
             </div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
