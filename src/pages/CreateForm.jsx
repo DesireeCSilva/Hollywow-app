@@ -11,7 +11,7 @@ const CreateForm = () => {
 
     return (
         <div className='formAdd'>
-            <h2>Añade un nuevo póster</h2>
+            <h2>Sube tu póster...</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
                     <label>Imagen</label>
