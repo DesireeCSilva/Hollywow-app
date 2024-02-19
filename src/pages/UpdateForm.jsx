@@ -7,7 +7,7 @@ const UpdateForm = () => {
     const { register, handleSubmit } = useForm();
 
     const onePoster = () => {
-      
+        
     }
 
     const onSubmit = async (editPoster) => {
