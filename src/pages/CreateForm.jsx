@@ -10,10 +10,9 @@ const CreateForm = () => {
     };
 
     return (
-        <div className='form'>
+        <div className='formAdd'>
             <h2>Añade un nuevo póster</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
-            <div className='contentform'>
                 <div>
                     <label>Imagen</label>
                     <input type="url" {...register('imageUrl', { required: true })} />
@@ -30,8 +29,7 @@ const CreateForm = () => {
                     <label>Año</label>
                     <input type="number" {...register('year', { required: true })} />
                 </div>
-            </div>
-                <input type="submit" value="Añadir Póster" />
+                <input className="buttonAdd" type="submit" value="Añadir Póster" />
             </form>
         </div>
     );

@@ -22,7 +22,7 @@ background-image: url(./assets/images/Background.jpg);
     width: 10%;
 }
 
-.form{
+/* .form{
     display: flex;
     background-color: darkgoldenrod;
     justify-content: center;
@@ -34,5 +34,48 @@ background-image: url(./assets/images/Background.jpg);
     margin-bottom: 5%;
     flex-direction: column;
     
+} */
+
+.formAdd {
+    background-color: #cccccc8c;
+    border-radius: 10px;
+    border-color: black;
+    border: 3px solid #000000;
+    padding: 5%;
+    margin: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+h2 {
+    margin-bottom: 20%;
+}
+
+
+input {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    height: 25px;
+    color: white;
+    background-color: black;
+}
+
+.buttonAdd {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 30%;
+    background-color: black;
+    padding: 5%;
+    color: #CEA436;
+    border-radius: 6px;
+    border-color: #CEA436;
+    font-weight: bold;
+}
