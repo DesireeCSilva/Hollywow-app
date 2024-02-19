@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { deletePoster } from '../services/posterServices';
+import { onePoster } from '../services/posterServices';
+
 
 const PosterCard = styled.div`
     background-color: black;
@@ -56,7 +58,10 @@ const Card = ({ posters }) => {
     const clickDelete = async (id) => {
             const result = await deletePoster(id);
     };
-    
+    const clickEdit = async (id) => {
+        const result = await onePoster (id);
+    };
+
     return ( 
     <>
         {posters.map(poster =>  ( 
@@ -69,9 +74,9 @@ const Card = ({ posters }) => {
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">DELETE</ButtonDelete>
-                <ButtonEdit className="button-edit">EDIT</ButtonEdit>
+                <ButtonEdit onClick={() => clickEdit(poster.id)} className="button-edit">EDIT</ButtonEdit>
             </PosterCard>
-        </div>
+        </div> 
         ))}
     </>
     );
