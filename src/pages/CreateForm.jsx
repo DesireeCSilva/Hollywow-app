@@ -31,7 +31,7 @@ const CreateForm = () => {
                     <label>Año</label>
                     <input type="number" {...register('year', { required: true })} />
                 </div>
-                <input className="buttonAdd" type="submit" value="Añadir Póster" />
+                <input className="buttonAdd" type="submit" value="Añadir" />
             </form>
         </div>
     );
