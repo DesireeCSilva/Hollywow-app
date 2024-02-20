@@ -23,7 +23,7 @@ background-image: url(./assets/images/Background.jpg);
 }
 
 .formAdd {
-    background-image: url(../src/assets/images/cinemac.jpg);
+    background-image: url(../src/assets/images/cinemac7.jpg);
     border-radius: 10px;
     border-color: black;
     border: 3px solid #000000;
@@ -38,7 +38,7 @@ background-image: url(./assets/images/Background.jpg);
 }
 
 .editForm {
-    background-image: url(../src/assets/images/cinemac7.jpg);
+    background-image: url(../src/assets/images/cinemac8.jpg);
     border-radius: 10px;
     border-color: black;
     border: 3px solid #000000;
@@ -82,7 +82,7 @@ input {
     border-color:#CEA436;
 }
 
-.buttonAdd, .EditPosterButton {
+.buttonAdd {
     width: 150px;
     display: flex;
     justify-content: center;
@@ -94,6 +94,23 @@ input {
     color: #CEA436;
     border-radius: 15px;
     border-color: #CEA436;
+    border-width: 3px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.EditPosterButton {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 20%;
+    background-color: #CEA436;
+    padding: 7%;
+    color: #000000;
+    border-radius: 15px;
+    border-color: #000000;
     border-width: 3px;
     font-weight: bold;
     font-size: medium;
