@@ -9,8 +9,8 @@ const PosterCard = styled.div`
     border-radius: 10px;
     padding: 40px;
     margin: 50px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-right: 150px;
+    margin-left: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
