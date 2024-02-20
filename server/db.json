@@ -1,6 +1,13 @@
 {
   "posters": [
     {
+      "imageUrl": "https://popcornusa.s3.amazonaws.com/movies/650/8164-0-Amlie.jpg",
+      "name": "AMELIE",
+      "director": " Jean-Pierre Jeunet",
+      "year": 2001,
+      "id": "1"
+    },
+    {
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "name": "THE GODFATHER",
       "director": "Francis Ford Coppola",
@@ -15,7 +22,7 @@
       "id": "3"
     },
     {
-      "imageUrl": "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1500x1500/products/83356/82936/the_chronicles_of_narnia_the_lion_the_witch_and_the_wardrobe_movie_poster_buy_now_at_starstills_1479__26883__35693.1394512932.jpg?c=2&imbypass=on",
+      "imageUrl": "https://media.senscritique.com/media/000008232652/source_big/Le_Monde_de_Narnia_Chapitre_1_Le_Lion_la_Sorciere_blanche_et.jpg",
       "name": "CRONICAS DE NARNIA",
       "director": "Andrew Adamson",
       "year": 2005,
@@ -44,20 +51,6 @@
     },
     {
       "id": "899c",
-      "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
-      "name": "GHOSTBUSTERS",
-      "director": "Ivan Reitman",
-      "year": "1984"
-    },
-    {
-      "id": "ffef",
-      "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
-      "name": "GHOSTBUSTERS",
-      "director": "Ivan Reitman",
-      "year": "1984"
-    },
-    {
-      "id": "a148",
       "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
       "name": "GHOSTBUSTERS",
       "director": "Ivan Reitman",

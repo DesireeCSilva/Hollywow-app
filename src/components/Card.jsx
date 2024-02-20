@@ -1,14 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import { deletePoster } from '../services/posterServices';
+import ButtonEdit from '../components/ButtonEdit';
+
 
 const PosterCard = styled.div`
     background-color: black;
     border-radius: 10px;
     padding: 40px;
     margin: 50px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-right: 150px;
+    margin-left: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,21 +44,11 @@ const ButtonDelete = styled.button`
   font-weight: bold;
   `;
 
-  const ButtonEdit = styled.button`
-  background-color: #CEA436; 
-  border-color: #9C325C;
-  border-radius: 6px;
-  color:#9C325C;
-  width: 91px;
-  height: 28px;
-  font-weight: bold;
-  `;
-
 const Card = ({ posters }) => {
     const clickDelete = async (id) => {
             const result = await deletePoster(id);
     };
-    
+
     return ( 
     <>
         {posters.map(poster =>  ( 
@@ -68,13 +60,15 @@ const Card = ({ posters }) => {
                     <p className="poster-card__director">Director: {poster.director}</p>
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
-                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
-                <ButtonEdit className="button-edit">EDITAR</ButtonEdit>
+                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">DELETE</ButtonDelete>
+                <ButtonEdit id={poster.id}/>
             </PosterCard>
-        </div>
+        </div> 
         ))}
     </>
     );
 };
 
 export default Card;
+
+
