@@ -23,13 +23,7 @@ const UpdateForm = () => {
         fetchData();
     }, [id, setValue])
 
-    //const onSubmit = async (editedPoster) => {
-        //setLoading(true);
-        //await updatePoster(id, editedPoster);
-        //alert('¡Los datos del elemento han sido actualizados correctamente!');
-        //reset();
-        //setLoading(false);
-    //};
+    
     const onSubmit = async (editedPoster) => {
         console.log('Póster editado:', editedPoster);
         setLoading(true);

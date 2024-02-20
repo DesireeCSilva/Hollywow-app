@@ -3,9 +3,9 @@ import '../components/ButtonEdit.css'
 import { Link } from 'react-router-dom';
 
 
-const ButtonEdit = (url) => {
+const ButtonEdit = ({id}) => {
   return (
-    <Link to= {`http://localhost:5173/update/${id}`} className="button-edit" url={id.toString()}>Editar póster</Link>
+    <Link to= {`/update/${id}`} className="button-edit">EDITAR</Link>
   );
 };
 
