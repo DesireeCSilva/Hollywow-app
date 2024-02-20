@@ -10,7 +10,7 @@ const HomePage = () => {
     <div className="main-container">
         <img src='src\assets\images\cartelprincipal.png' className="fotopelis"/>
         <h1 className="title">GALERÍA</h1>
-        <section>
+        <section className='card'>    
         <Card posters={posters}/>
         </section>
     </div>
