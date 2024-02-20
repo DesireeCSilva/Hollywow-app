@@ -14,7 +14,7 @@ const UpdateForm = () => {
             const posterData = await getOnePoster(id);
             setPosterData(posterData);
 
-            setValue('image', posterData.imageUrl),
+            setValue('imageUrl', posterData.imageUrl),
             setValue('name', posterData.name),
             setValue('director', posterData.director),
             setValue('year', posterData.year)
@@ -23,14 +23,27 @@ const UpdateForm = () => {
         fetchData();
     }, [id, setValue])
 
+    //const onSubmit = async (editedPoster) => {
+        //setLoading(true);
+        //await updatePoster(id, editedPoster);
+        //alert('¡Los datos del elemento han sido actualizados correctamente!');
+        //reset();
+        //setLoading(false);
+    //};
     const onSubmit = async (editedPoster) => {
+        console.log('Póster editado:', editedPoster);
         setLoading(true);
-        await updatePoster(id, editedPoster);
-        alert('¡Los datos del elemento han sido actualizados correctamente!');
-        reset();
-        setLoading(false);
+        try {
+            await updatePoster(id, editedPoster);
+            alert('¡Los datos del elemento han sido actualizados correctamente!');
+            reset();
+        } catch (error) {
+            console.error('Error al actualizar el póster:', error);
+        } finally {
+            setLoading(false);
+        }
     };
-
+    
     return (
         <div>
             <h2>Edita tu póster</h2>

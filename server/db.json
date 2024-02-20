@@ -3,7 +3,9 @@
     {
       "imageUrl": "https://pics.filmaffinity.com/Amaelie-848337470-large.jpg",
       "name": "AMELIE",
-      "director": "Jean-Pierre Jeunet"
+      "director": "Jean-Pierre Jeunet",
+      "year": 2001,
+      "id": "1"
     },
     {
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
