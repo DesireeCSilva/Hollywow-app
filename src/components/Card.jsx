@@ -45,16 +45,6 @@ const ButtonDelete = styled.button`
   font-weight: bold;
   `;
 
-  const ButtonEdit = styled.button`
-  background-color: #CEA436; 
-  border-color: #9C325C;
-  border-radius: 6px;
-  color:#9C325C;
-  width: 91px;
-  height: 28px;
-  font-weight: bold;
-  `;
-
 const Card = ({ posters }) => {
     const clickDelete = async (id) => {
             const result = await deletePoster(id);
@@ -75,7 +65,7 @@ const Card = ({ posters }) => {
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">DELETE</ButtonDelete>
-                <ButtonEdit id={poster.id}/>
+                <ButtonEdit onClick={() => clickEdit(poster.id)}/>
             </PosterCard>
         </div> 
         ))}
