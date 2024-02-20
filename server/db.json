@@ -1,9 +1,9 @@
 {
   "posters": [
     {
-      "imageUrl": "https://pics.filmaffinity.com/Amaelie-848337470-large.jpg",
+      "imageUrl": "https://popcornusa.s3.amazonaws.com/movies/650/8164-0-Amlie.jpg",
       "name": "AMELIE",
-      "director": "Jean-Pierre Jeunet",
+      "director": " Jean-Pierre Jeunet",
       "year": 2001,
       "id": "1"
     },
@@ -51,6 +51,13 @@
     },
     {
       "id": "899c",
+      "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
+      "name": "GHOSTBUSTERS",
+      "director": "Ivan Reitman",
+      "year": "1984"
+    },
+    {
+      "id": "ffef",
       "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
       "name": "GHOSTBUSTERS",
       "director": "Ivan Reitman",
