@@ -37,6 +37,21 @@ background-image: url(./assets/images/Background.jpg);
     font-weight: bold;
 }
 
+.editForm {
+    background-image: url(../src/assets/images/cinemac1.jpg);
+    border-radius: 10px;
+    border-color: black;
+    border: 3px solid #000000;
+    padding: 5%;
+    margin: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
 .Añade {
    width: 70%;
    height: 100%;
@@ -44,6 +59,15 @@ background-image: url(./assets/images/Background.jpg);
    margin-top: -20%;
    position: relative;
    right: 8%;
+}
+
+.Edita{
+    width: 70%;
+    height: 100%;
+    padding: 23%;
+    margin-top: -20%;
+    position: relative;
+    right: 8%;
 }
 
 input {
@@ -58,7 +82,7 @@ input {
     border-color:#CEA436;
 }
 
-.buttonAdd {
+.buttonAdd, .EditPosterButton {
     width: 150px;
     display: flex;
     justify-content: center;

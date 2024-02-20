@@ -15,8 +15,10 @@ const UpdateForm = () => {
     };
 
     return (
-        <div>
-            <h2>Edita tu póster</h2>
+        <div className="editForm">
+            <div>
+                <img src="../src/assets/images/edita.png" className='Edita'></img> 
+            </div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
                     <label>Imagen</label>
@@ -34,7 +36,7 @@ const UpdateForm = () => {
                     <label>Año</label>
                     <input type="number" {...register('year', { required: true })} />
                 </div>
-                <input type="submit" value="Editar Póster" />
+                <input className="EditPosterButton" type="submit" value="Editar Póster" />
             </form>
         </div>
     );
