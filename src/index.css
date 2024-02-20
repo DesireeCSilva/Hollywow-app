@@ -115,3 +115,8 @@ input {
     font-weight: bold;
     font-size: medium;
 }
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
