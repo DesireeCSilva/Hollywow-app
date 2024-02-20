@@ -1,6 +1,11 @@
 {
   "posters": [
     {
+      "imageUrl": "https://pics.filmaffinity.com/Amaelie-848337470-large.jpg",
+      "name": "AMELIE",
+      "director": "Jean-Pierre Jeunet"
+    },
+    {
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "name": "THE GODFATHER",
       "director": "Francis Ford Coppola",
