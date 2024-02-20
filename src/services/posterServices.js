@@ -8,10 +8,10 @@ export const getPosters = async () => {
 
 //Petición GET de un solo objeto
 
-export const onePoster = async () => {
+export const getOnePoster = async (id) => {
     const response = await fetch(`http://localhost:3000/posters/${id}`);
     const data = await response.json();
-    return   data;
+    return data;
 }
 
 //Petición POST
@@ -25,13 +25,13 @@ export const createPoster = async (newPoster) => {
     });
 }
 
-//Petición UPDATE
+//Petición PUT
 
-export const updatePoster = async  (id, editPoster) => {
+export const updatePoster = async  (id, editedPoster) => {
     const response = await fetch(`http://localhost:3000/posters/${id}`, {
         method: "PUT",
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify(editPoster),
+        body: JSON.stringify(editedPoster),
     })
 }
 

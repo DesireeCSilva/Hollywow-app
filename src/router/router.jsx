@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage";
 import { getPosters } from "../services/posterServices"; 
 import CreateForm from "../pages/CreateForm";
 import UpdateForm from "../pages/UpdateForm";
+import Card from "../components/Card";
 
 
 export const router = createBrowserRouter([
@@ -21,9 +22,13 @@ export const router = createBrowserRouter([
                 element: <CreateForm/>
             },
             {
-                path: "/update",
+                path: "/update/:id",
                 element: <UpdateForm/>
             },
+            {
+                path: "/card/:id",
+                component: { Card }
+            }
         ]
     },
 ]);
