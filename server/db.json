@@ -22,7 +22,7 @@
       "id": "3"
     },
     {
-      "imageUrl": "https://media.senscritique.com/media/000008232652/source_big/Le_Monde_de_Narnia_Chapitre_1_Le_Lion_la_Sorciere_blanche_et.jpg",
+      "imageUrl": "https://i.ebayimg.com/images/g/L9AAAOSwTg9dd8Tj/s-l1600.jpg",
       "name": "CRONICAS DE NARNIA",
       "director": "Andrew Adamson",
       "year": 2005,
@@ -50,11 +50,18 @@
       "year": "1984"
     },
     {
-      "id": "899c",
       "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
       "name": "GHOSTBUSTERS",
-      "director": "Ivan Reitman",
-      "year": "1984"
+      "director": "Juanito Martín",
+      "year": "2000",
+      "id": "899c"
+    },
+    {
+      "id": "bdd7",
+      "imageUrl": "https://pics.filmaffinity.com/Aftersun-852065058-large.jpg",
+      "name": "Aftersun",
+      "director": "Charlotte Wells",
+      "year": "2022"
     }
   ]
 }
