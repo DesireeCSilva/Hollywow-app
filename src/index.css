@@ -12,10 +12,10 @@ background-image: url(./assets/images/Background.jpg);
 }
 
 .title{
- font-size: 400%;
- display: flex;
- justify-content: center;
- margin-top: 5%;
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
 }
 
 .right-section {
@@ -53,12 +53,12 @@ background-image: url(./assets/images/Background.jpg);
 }
 
 .Añade {
-   width: 70%;
-   height: 100%;
-   padding: 23%;
-   margin-top: -20%;
-   position: relative;
-   right: 8%;
+    width: 70%;
+    height: 100%;
+    padding: 23%;
+    margin-top: -20%;
+    position: relative;
+    right: 8%;
 }
 
 .Edita{
