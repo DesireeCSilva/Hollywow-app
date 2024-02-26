@@ -1,10 +1,12 @@
 .button-edit{
-  background-color: #CEA436; 
-  border-color: #9C325C;
+color: #9C325C ;
+background-color:#CEA436;
+  padding: 6px 20px;
   border-radius: 6px;
-  color:#9C325C;
-  width: 91px;
-  height: 28px;
+  font-size: 13px;
   font-weight: bold;
+  border: 2px solid #9C325C;
+  text-decoration: none;
+ 
 }
-  
+
