@@ -42,6 +42,7 @@ const ButtonDelete = styled.button`
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
+  cursor: pointer;
   `;
 
 const Card = ({ posters }) => {
@@ -60,7 +61,7 @@ const Card = ({ posters }) => {
                     <p className="poster-card__director">Director: {poster.director}</p>
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
-                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">DELETE</ButtonDelete>
+                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
                 <ButtonEdit id={poster.id}/>
             </PosterCard>
         </div> 
