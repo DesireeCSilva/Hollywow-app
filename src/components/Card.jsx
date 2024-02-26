@@ -58,8 +58,8 @@ const Card = ({ posters }) => {
                 <PosterImage src={poster.imageUrl} alt={poster.name} className="poster-card__image" />
                 <PosterInfo className="poster-card__info">
                     <h2 className="poster-card__name">{poster.name}</h2>
-                    {/* <p className="poster-card__director">Director: {poster.director}</p>
-                    <p className="poster-card__year">Year: {poster.year}</p> */}
+                    <p className="poster-card__director">Director: {poster.director}</p>
+                    <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
                 <ButtonEdit id={poster.id}/>

@@ -120,3 +120,7 @@ input {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.poster-card__director, .poster-card__year {
+    display: none;
+}
