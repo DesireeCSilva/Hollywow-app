@@ -41,7 +41,7 @@ const UpdateForm = () => {
     return (
         <div className="editForm">
             <div>
-                <img src="../src/assets/images/edita.png" className='Edita'></img> 
+                <img src="../src/assets/images/edita.png" className='Edit'></img> 
             </div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
