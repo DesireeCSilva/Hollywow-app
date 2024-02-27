@@ -1,19 +1,22 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { createPoster } from '../services/posterServices'; 
+import { useNavigate } from 'react-router-dom';
 
 const CreateForm = () => {
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
-
+    const navigate = useNavigate()
     const onSubmit = async (newPoster) => {
-        const { success, error } = await createPoster(newPoster);
-        
-        if (success) {
-            alert('¡Formulario enviado con éxito!');
-            reset();
-        } else {
-            alert(error);
-        }
+        await createPoster(newPoster) 
+        navigate("/")
+        // console.log(response);
+        // if ( response.ok ) {
+        //     alert('¡Formulario enviado con éxito!');
+        //     reset();
+        // } else {
+        //     alert(error);
+        //     console.error('Error al cargar datos');
+        // }
     };
 
     return (
