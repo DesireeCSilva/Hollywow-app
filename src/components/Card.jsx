@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { deletePoster } from '../services/posterServices';
 import ButtonEdit from '../components/ButtonEdit';
+import ButtonDetail from '../components/ButtonDetail';
 
 
 const PosterCard = styled.div`
@@ -63,6 +64,7 @@ const Card = ({ posters }) => {
                 </PosterInfo>
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
                 <ButtonEdit id={poster.id}/>
+                <ButtonDetail id={poster.id}/>
             </PosterCard>
         </div> 
         ))}

@@ -1,0 +1,10 @@
+.button-detail {
+    color: blue ;
+    background-color: violet;
+    padding: 6px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #9C325C;
+    text-decoration: none;
+}
