@@ -82,6 +82,12 @@ input {
     border-color:#CEA436;
 }
 
+.error-message {
+    color: red;
+    margin-bottom: 25px;
+    font-size: small;
+}
+
 .buttonAdd {
     width: 150px;
     display: flex;
