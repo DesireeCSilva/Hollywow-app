@@ -62,8 +62,8 @@ const Card = ({ posters }) => {
                     <p className="poster-card__director">Director: {poster.director}</p>
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
-                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
-                <ButtonEdit id={poster.id}/>
+                {/* <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete> */}
+                {/* <ButtonEdit id={poster.id}/> */}
                 <ButtonDetail id={poster.id}/>
             </PosterCard>
         </div> 
