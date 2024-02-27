@@ -57,13 +57,6 @@
       "year": "2022"
     },
     {
-      "imageUrl": "https://m.media-amazon.com/images/I/810FSIwEPPL._AC_UF1000,1000_QL80_.jpg",
-      "name": "La Sirenita",
-      "director": "Walt Disney",
-      "year": "1970",
-      "id": "d427"
-    },
-    {
       "id": "bfd3",
       "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
       "name": "Hola hola",
@@ -71,11 +64,11 @@
       "year": "1990"
     },
     {
-      "id": "1aec",
       "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
-      "name": "Hola hola",
+      "name": "hello",
       "director": "Andrea y Alba",
-      "year": "1990"
+      "year": "1990",
+      "id": "1aec"
     },
     {
       "id": "bd88",

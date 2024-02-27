@@ -2,10 +2,12 @@ import { useState, useEffect }  from 'react';
 import { useForm } from "react-hook-form";
 import { updatePoster, getOnePoster } from '../services/posterServices'; 
 import { useParams} from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const UpdateForm = () => {
     const {id} = useParams(); // Para obtener la id de la URL
     const { register, handleSubmit, reset, setValue, watch } = useForm();
+    const navigate = useNavigate()
     const [loading, setLoading] = useState(false);
     const [posterData, setPosterData] = useState();
 
@@ -30,7 +32,7 @@ const UpdateForm = () => {
         try {
             await updatePoster(id, editedPoster);
             alert('¡Los datos del elemento han sido actualizados correctamente!');
-            reset();
+            navigate(`/card/${id}`)
         } catch (error) {
             console.error('Error al actualizar el póster:', error);
         } finally {
