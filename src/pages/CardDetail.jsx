@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { getOnePoster, deletePoster } from '../services/posterServices';
 import ButtonEdit from '../components/ButtonEdit';
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 
 const ButtonDelete = styled.button`
     background-color: #9C325C;
@@ -22,6 +23,7 @@ const ButtonDelete = styled.button`
 const CardDetail = () => {
     const { id } = useParams();
     const [poster, setPoster] = useState(null);
+    const navigate = useNavigate()
 
     useEffect(() => {
         const fetchPosterById = async () => {
@@ -38,6 +40,7 @@ const CardDetail = () => {
     const clickDelete = async () => {
         try {
             const result = await deletePoster(id);
+            navigate("/")
             console.log('Poster eliminado:', result);
         } catch (error) {
             console.error('Error al eliminar el póster:', error);
