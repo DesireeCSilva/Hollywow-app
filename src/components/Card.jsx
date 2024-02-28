@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { deletePoster } from '../services/posterServices';
 //import ButtonEdit from '../components/ButtonEdit';
 import ButtonDetail from '../components/ButtonDetail';
+import { useNavigate } from 'react-router-dom';
 
 
 const PosterCard = styled.div`
@@ -50,8 +51,10 @@ const ButtonDelete = styled.button`
   `;
 
 const Card = ({ posters }) => {
+    const navigate = useNavigate()
     const clickDelete = async (id) => {
             const result = await deletePoster(id); //Llama a nuestra petición fetch declarada en "./services/posterServices.js"
+            navigate("/")
     };
 
     return ( 
