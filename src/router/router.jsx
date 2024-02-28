@@ -7,15 +7,15 @@ import UpdateForm from "../pages/UpdateForm";
 import CardDetail from "../pages/CardDetail";
 
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter([ // Define y exporta la variable router utilizando la función createBrowserRouter.
     {
         path: "/",
-        element: <LayoutPublic/>,
-        children: [
+        element: <LayoutPublic/>, // Muestra el componente LayoutPublic como elemento principal.
+        children: [ // Define las rutas secundarias dentro de la ruta principal.
             {
                 path: "/",
                 element: <HomePage/>,
-                loader: getPosters
+                loader: getPosters // Carga los datos de los pósters utilizando la función getPosters.
             },
             {
                 path: "/create",
