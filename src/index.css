@@ -131,3 +131,41 @@ input {
 .poster-card__director, .poster-card__year {
     display: none;
 }
+
+.card-detail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-detail__imageUrl{
+    width: 50%;
+    border: 3em solid black;
+    border-radius: 5px;
+}
+.imgcard{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: -4%;
+}
+
+.card-detail__director{
+    font-size: 100%;
+    margin-bottom: 2%;
+    margin-right: 20%;
+}
+.details{
+   display: flex;
+   flex-direction: column;
+   padding-right: 7%;
+   margin-bottom: 4%;
+   margin-left: -20%;
+}
+
+.card-detail__name{
+    font-size:300%;
+    position: relative;
+    margin-bottom: 10%;
+    
+    
+}
