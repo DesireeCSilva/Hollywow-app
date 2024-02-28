@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ButtonAdd = () => {
   return (
-    <Link to="http://localhost:5173/create" className="button-add">Añadir póster</Link>
+    <Link to="/create" className="button-add">Añadir póster</Link>
   )
 }
 
