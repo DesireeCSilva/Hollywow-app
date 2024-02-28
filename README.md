@@ -12,9 +12,9 @@ Bienvenida a nuestro proyecto HollyWow App, una aplicación web con la que puede
 
 ## ESTRUCTURA DEL PROYECTO
 
-### Página Principal / Galería:
+### Página principal / Galería:
 
-La página principal o Galería muestra unas cards con los pósters que tenemos en nuestra base de datos. En cada una de ellas encontramos dos botones: 
+La Página principal o Galería muestra unas cards con los pósters que tenemos en nuestra base de datos. En cada una de ellas encontramos dos botones: 
  - "Eliminar": Nos permite borrar el póster y nos actualiza automáticamente la página mostrando el resto de cards. Este botón permite eliminar los datos mediante el método DELETE.
  - "+ info": Nos redirije a una página con el detalle del póster seleccionado.
 
@@ -32,13 +32,13 @@ Al hacer clic en ese botón, nos redirije a nuestro formulario de "Añade tu pó
 
 ![Página del formulario de añadir nuevo póster](src/assets/images/Form-Add.png)
 
-Una vez rellenados todos los campos, pulsando el botón de la parte inferior del formulario "Añadir" nos redirijirá automáticamente a nuestra página principal y nos mostrará la galería con el nuevo póster.
+Una vez rellenados todos los campos y pulsando el botón de la parte inferior del formulario "Añadir", nos redirijirá automáticamente a nuestra página principal y nos mostrará la galería con el nuevo póster.
 
 ### Página de detalle:
 
 Para acceder al detalle de un póster se debe hacer clic en el botón "+ info" de la card. 
 
-Dentro de esta, nos mostrará los datos de "imagen" y "nombre" del póster y, además, los datos extra de "director" y "año". También están los dos botones de "Editar" y "Eliminar" (hacienco clic en este último, podríamos eliminar el póster y automáticamente volver a la página principal).
+Dentro de esta, nos mostrará los datos de "imagen" y "nombre" del póster y, además, los datos extra de "director" y "año". También están los dos botones de "Editar" y "Eliminar" (hacienco clic en este último, también podríamos eliminar el póster y automáticamente volver a la página principal).
 
 ![Página de detalle](src/assets/images/PageDetail.png)
 
@@ -47,6 +47,7 @@ Esta página permite visualizar los datos de nuestra API mediante el método GET
 ### Página de Editar:
 
 Se accede desde la página detalle del póster que queremos modificar y pulsando el botón "Editar". Haciendo clic en ese botón, nos redirije a nuestro formulario de "Edita tu póster". 
+
 En este formulario, los campos nos aparecerán completos con la información que contiene en ese momento y, en caso de querer editar cualquiera de los campos, bastaría con modificarlo y esperar el mensaje "¡Los datos del elemento han sido actualizados correctamente!" que nos confirma la edición y nos redirije a la página detalle con los datos actualizados. 
 
 ![Página de Edición](src/assets/images/Form-Edit.png)
@@ -54,6 +55,21 @@ En este formulario, los campos nos aparecerán completos con la información que
 Este formulario permite realizar las modificaciones y guardar los cambios mediante el método PUT. 
 
 ## TECNOLOGÍAS UTILIZADAS
+ 
+- Visual Studio Code 
+- Github
+- HTML
+- CSS
+- JavaScript
+- JSON Server
+- React:
+    1. React-router-dom
+    2. React-hook-form
+    3. Styled-components
+    4. @testing-library/dom
+    5. @testing-library/jest-dom
+    6. @testing-library/react
+- Vitest
 
 ## INSTALACIÓN
 
@@ -76,6 +92,10 @@ npm run dev
 ```
 
 ## COLABORACIÓN DESEADA
+
+1. Añadir un Mockup para crear una sensación de marco en las imágenes de los pósters.
+2. Utilizar Cloudinary para almacenar nuestras imágenes en su servidor y disponer de ellas mediante una url personalizada.
+3. Añadir una validación de "Formulario enviado con éxito" en el formulario de la página "CreateForm".
 
 ## DESARROLLADORAS
 - Scrum Master: [Andrea](https://github.com/Andreamartinn17)
