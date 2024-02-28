@@ -192,3 +192,10 @@ input {
     margin-top: 7%;
     
 }
+
+.card-detail__imageUrl{
+    width: 25%;
+    position: relative;
+    margin-left: 25%;
+   
+}

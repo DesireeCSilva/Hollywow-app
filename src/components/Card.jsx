@@ -17,12 +17,13 @@ const PosterCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 `;
 
 const PosterImage = styled.img`
+    object-fit: cover;
     max-width: 100%;
     height: auto;
-    object-fit: cover;
     border: 0.5em solid white;
     border-radius: 5px;
     margin-bottom: 10px;
