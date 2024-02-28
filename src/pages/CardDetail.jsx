@@ -21,7 +21,7 @@ const ButtonDelete = styled.button`
     `;
 
 const CardDetail = () => {
-    const { id } = useParams(); 
+    const { id } = useParams(); // Obtiene el parámetro de la URL llamado 'id'.
     const [poster, setPoster] = useState(null); // Define un estado para almacenar la información del póster.
     const navigate = useNavigate() // Hook para redirigir la navegación a una página concreta.
 
