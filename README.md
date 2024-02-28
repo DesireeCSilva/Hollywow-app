@@ -5,7 +5,7 @@ Bienvenida a nuestro proyecto HollyWow App, una aplicación web con la que puede
 ## CONTENIDO
 
 - [ESTRUCTURA DEL PROYECTO](#ESTRUCTURA-DEL-PROYECTO)
-- [TECNOLOGÍAS](#TECNOLOGÍAS)
+- [TECNOLOGÍAS](#TECNOLOGÍAS-UTILIZADAS)
 - [INSTALACIÓN](#INSTALACIÓN)
 - [COLABORACIÓN DESEADA](#COLABORACIÓN-DESEADA)
 - [DESARROLLADORAS](#DESARROLLADORAS)
@@ -15,10 +15,12 @@ Bienvenida a nuestro proyecto HollyWow App, una aplicación web con la que puede
 ### Página Principal / Galería:
 
 La página principal o Galería muestra unas cards con los pósters que tenemos en nuestra base de datos. En cada una de ellas encontramos dos botones: 
- - "Eliminar": Nos permite borrar el póster y nos actualiza automáticamente la página mostrando el resto de cards.
+ - "Eliminar": Nos permite borrar el póster y nos actualiza automáticamente la página mostrando el resto de cards. Este botón permite eliminar los datos mediante el método DELETE.
  - "+ info": Nos redirije a una página con el detalle del póster seleccionado.
 
 ![Card](src/assets/images/Card-gallery.png)
+
+La galería muestra los datos de nuestra API mediante el método GET.
 
 ### Página para añadir un nuevo póster:
 
@@ -36,21 +38,22 @@ Una vez rellenados todos los campos, pulsando el botón de la parte inferior del
 
 Para acceder al detalle de un póster se debe hacer clic en el botón "+ info" de la card. 
 
-Dentro de esta, nos mostrará los datos de "imagen" y "nombre" del póster y, además, los datos extra de "director" y "año". Además de dos botones: "Editar" y "Eliminar" (hacienco clic en este último, podríamos eliminar el póster y automáticamente volver a la página principal).
+Dentro de esta, nos mostrará los datos de "imagen" y "nombre" del póster y, además, los datos extra de "director" y "año". También están los dos botones de "Editar" y "Eliminar" (hacienco clic en este último, podríamos eliminar el póster y automáticamente volver a la página principal).
 
 ![Página de detalle](src/assets/images/PageDetail.png)
 
+Esta página permite visualizar los datos de nuestra API mediante el método GET (GetOnePoster).
+
 ### Página de Editar:
 
-Se accede desde la página detalle del póster que queremos editar. 
-![Botón editar](src/assets/)
+Se accede desde la página detalle del póster que queremos modificar y pulsando el botón "Editar". Haciendo clic en ese botón, nos redirije a nuestro formulario de "Edita tu póster". 
+En este formulario, los campos nos aparecerán completos con la información que contiene en ese momento y, en caso de querer editar cualquiera de los campos, bastaría con modificarlo y esperar el mensaje "¡Los datos del elemento han sido actualizados correctamente!" que nos confirma la edición y nos redirije a la página detalle con los datos actualizados. 
 
+![Página de Edición](src/assets/images/Form-Edit.png)
 
-Permite realizar modificaciones y guardar los cambios mediante el método PUT..
+Este formulario permite realizar las modificaciones y guardar los cambios mediante el método PUT. 
 
-![Página de Edición](src/assets/)
-
-## LENGUAJES Y HERRAMIENTAS UTILIZADAS
+## TECNOLOGÍAS UTILIZADAS
 
 ## INSTALACIÓN
 
