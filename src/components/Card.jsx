@@ -1,7 +1,9 @@
+//Card se muestra en la HomePage con el array de los datos de cada póster.
+
 import React from 'react';
 import styled from 'styled-components';
 import { deletePoster } from '../services/posterServices';
-import ButtonEdit from '../components/ButtonEdit';
+//import ButtonEdit from '../components/ButtonEdit';
 import ButtonDetail from '../components/ButtonDetail';
 
 
@@ -48,7 +50,7 @@ const ButtonDelete = styled.button`
 
 const Card = ({ posters }) => {
     const clickDelete = async (id) => {
-            const result = await deletePoster(id);
+            const result = await deletePoster(id); //Llama a nuestra petición fetch declarada en "./services/posterServices.js"
     };
 
     return ( 
