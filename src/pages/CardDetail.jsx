@@ -56,10 +56,14 @@ const CardDetail = () => {
                 </div>
                 <div className="details">
                 <h2 className="card-detail__name">{poster.name}</h2>
-                <p className="card-detail__director">Director: {poster.director}</p>
-                <p className="card-detail__year">Year: {poster.year}</p>
+                <div className='descriptiones'>
+                <p className="card-detail__director"><span className='director'>Director:</span> {poster.director}</p>
+                <p className="card-detail__year"><span className="year">Year</span>: {poster.year}</p>
+                </div>
+                <div className='buttons'>
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
                 <ButtonEdit id={poster.id} className="button-edit"> EDITAR</ButtonEdit>
+                </div>
                 </div>
             </div>
         )}

@@ -1,12 +1,15 @@
 .button-edit{
   color: #9C325C ;
   background-color:#CEA436;
-  padding: 4px 20px;
+  padding: 5px 16px;
   border-radius: 6px;
   font-size: 13px;
   font-weight: bold;
   border: 2px solid #9C325C;
   text-decoration: none;
-  width: 21%;
+  width: 19%;
+  height: 15%;
+  margin-top: 4.2%;
+  margin-right: 15%;
 } 
 
