@@ -145,6 +145,7 @@ input {
     
 }
 
+
 .imgcard{
   margin-top: 2%;
   margin-bottom: 2%;
@@ -179,7 +180,15 @@ input {
     font-size:300%;
     position: relative;
     margin-bottom: 10%;
-    
+}
+.descriptiones{
+    font-size: 120%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
     
 }
 .descriptiones{
