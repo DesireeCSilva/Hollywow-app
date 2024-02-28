@@ -15,8 +15,8 @@ Bienvenida a nuestro proyecto HollyWow App, una aplicación web con la que puede
 ### Página principal / Galería:
 
 La Página principal o Galería muestra unas cards con los pósters que tenemos en nuestra base de datos. En cada una de ellas encontramos dos botones: 
- - "Eliminar": Nos permite borrar el póster y nos actualiza automáticamente la página mostrando el resto de cards. Este botón permite eliminar los datos mediante el método DELETE.
- - "+ info": Nos redirije a una página con el detalle del póster seleccionado.
+ - "ELIMINAR": Nos permite borrar el póster y nos actualiza automáticamente la página mostrando el resto de cards. Este botón permite eliminar los datos mediante el método DELETE.
+ - "+ INFO": Nos redirije a una página con el detalle del póster seleccionado.
 
 ![Card](src/assets/images/Card-gallery.png)
 
@@ -38,7 +38,7 @@ Una vez rellenados todos los campos y pulsando el botón de la parte inferior de
 
 Para acceder al detalle de un póster se debe hacer clic en el botón "+ info" de la card. 
 
-Dentro de esta, nos mostrará los datos de "imagen" y "nombre" del póster y, además, los datos extra de "director" y "año". También están los dos botones de "Editar" y "Eliminar" (hacienco clic en este último, también podríamos eliminar el póster y automáticamente volver a la página principal).
+Dentro de esta, nos mostrará los datos de "imagen" y "nombre" del póster y, además, los datos extra de "director" y "año". También están los dos botones de "EDITAR" y "ELIMINAR" (hacienco clic en este último, también podríamos eliminar el póster y automáticamente volver a la página principal).
 
 ![Página de detalle](src/assets/images/PageDetail.png)
 
@@ -63,30 +63,30 @@ Este formulario permite realizar las modificaciones y guardar los cambios median
 - JavaScript
 - JSON Server
 - React:
-    1. React-router-dom
-    2. React-hook-form
-    3. Styled-components
-    4. @testing-library/dom
-    5. @testing-library/jest-dom
-    6. @testing-library/react
+    * React-router-dom
+    * React-hook-form
+    * Styled-components
+    * @testing-library/dom
+    * @testing-library/jest-dom
+    * @testing-library/react
 - Vitest
 
 ## INSTALACIÓN
 
-### Instalación de Dependencias:
+### Instalación de dependencias:
 1. Comprueba que tienes Node.js instalado.
 2. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 ```bash
 npm install
 ```
 
-### Iniciar la API Simulada:
+### Iniciar la API Fake:
 Utiliza json-server para simular una API.
 ```bash
 npm run api
 ```
 
-### Iniciar el Servidor de Desarrollo:
+### Iniciar el servidor de desarrollo:
 ```bash
 npm run dev
 ```
@@ -94,10 +94,10 @@ npm run dev
 ## COLABORACIÓN DESEADA
 
 1. Añadir un Mockup para crear una sensación de marco en las imágenes de los pósters.
-2. Utilizar Cloudinary para almacenar nuestras imágenes en su servidor y disponer de ellas mediante una url personalizada.
+2. Utilizar Cloudinary para almacenar nuestras imágenes en su servidor y disponer de ellas mediante una URL personalizada.
 3. Añadir una validación de "Formulario enviado con éxito" en el formulario de la página "CreateForm".
 
-## DESARROLLADORAS
+## DESARROLLADORAS DEL PROYECTO
 - Scrum Master: [Andrea](https://github.com/Andreamartinn17)
 - Product Owner: [Lucero](https://github.com/LuHeRiver)
 - Web developer: [Alba](https://github.com/albamartinmz)
