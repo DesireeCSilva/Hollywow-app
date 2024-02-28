@@ -51,12 +51,16 @@ const CardDetail = () => {
         <>
         {poster && (
             <div className="card-detail">
+                <div className="imgcard">
                 <img className="card-detail__imageUrl" src={poster.imageUrl}/>
+                </div>
+                <div className="detalles">
                 <h2 className="card-detail__name">{poster.name}</h2>
                 <p className="card-detail__director">Director: {poster.director}</p>
                 <p className="card-detail__year">Year: {poster.year}</p>
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
-                <ButtonEdit id={poster.id}/>
+                <ButtonEdit id={poster.id} className="button-edit"> EDITAR</ButtonEdit>
+                </div>
             </div>
         )}
         </>
