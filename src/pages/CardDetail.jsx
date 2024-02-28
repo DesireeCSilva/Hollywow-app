@@ -54,7 +54,7 @@ const CardDetail = () => {
                 <div className="imgcard">
                 <img className="card-detail__imageUrl" src={poster.imageUrl}/>
                 </div>
-                <div className="detalles">
+                <div className="details">
                 <h2 className="card-detail__name">{poster.name}</h2>
                 <p className="card-detail__director">Director: {poster.director}</p>
                 <p className="card-detail__year">Year: {poster.year}</p>

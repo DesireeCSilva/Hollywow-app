@@ -145,17 +145,26 @@ input {
 .imgcard{
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-left: 20%;
+  margin-right: -4%;
 }
 
 .card-detail__director{
-    font-size: 200%;
+    font-size: 100%;
     margin-bottom: 2%;
-    margin-right: 40%;
+    margin-right: 20%;
 }
-.detalles{
-    display: flex;
+.details{
+   display: flex;
    flex-direction: column;
    padding-right: 7%;
+   margin-bottom: 4%;
+   margin-left: -20%;
 }
 
+.card-detail__name{
+    font-size:300%;
+    position: relative;
+    margin-bottom: 10%;
+    
+    
+}
