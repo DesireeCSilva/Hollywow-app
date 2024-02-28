@@ -139,9 +139,11 @@ input {
 
 .card-detail__imageUrl{
     width: 50%;
-    border: 3em solid black;
     border-radius: 5px;
+    border:2em solid rgb(8, 8, 8);
+    
 }
+
 .imgcard{
   margin-top: 2%;
   margin-bottom: 2%;
@@ -149,16 +151,27 @@ input {
 }
 
 .card-detail__director{
+    width: 100%;
     font-size: 100%;
     margin-bottom: 2%;
     margin-right: 20%;
 }
+.director{
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+.year{
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+
 .details{
    display: flex;
    flex-direction: column;
    padding-right: 7%;
    margin-bottom: 4%;
    margin-left: -20%;
+
 }
 
 .card-detail__name{
@@ -166,5 +179,15 @@ input {
     position: relative;
     margin-bottom: 10%;
     
+    
+}
+.descriptiones{
+    font-size: 120%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
     
 }
