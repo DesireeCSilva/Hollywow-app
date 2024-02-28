@@ -26,8 +26,8 @@ const CreateForm = () => {
             <div>
                 <img src="../src/assets/images/Añade-pelicula.png" className='Add'></img> 
             </div>
-            {/* // Inicia el formulario y llama a la función handleSubmit para manejar el envío del formulario. */}
             <form onSubmit={handleSubmit(onSubmit)}> 
+             {/* // Inicia el formulario y llama a la función handleSubmit para manejar el envío del formulario. */}
                 <div>
                     <label className='image'>Imagen</label>
                     <input type="url" {...register('imageUrl', { 
