@@ -120,3 +120,114 @@ input {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .fotopelis{
+        width: 100%;
+    }
+    
+    .title{
+     font-size: 200%;
+    }
+    
+    
+    .formAdd {
+        background-image: url(../src/assets/images/cinemac7.jpg);
+        border-radius: 10px;
+        border-color: black;
+        border: 3px solid #000000;
+        padding: 5%;
+        margin: 50px;
+        margin-right: 400px;
+        margin-left: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .editForm {
+        background-image: url(../src/assets/images/cinemac8.jpg);
+        border-radius: 10px;
+        border-color: black;
+        border: 3px solid #000000;
+        padding: 5%;
+        margin: 50px;
+        margin-right: 400px;
+        margin-left: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .Añade {
+       width: 70%;
+       height: 100%;
+       padding: 23%;
+       margin-top: -20%;
+       position: relative;
+       right: 8%;
+    }
+    
+    .Edita{
+        width: 70%;
+        height: 100%;
+        padding: 23%;
+        margin-top: -20%;
+        position: relative;
+        right: 8%;
+    }
+    
+    input {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        border-color:#CEA436;
+    }
+    
+    .buttonAdd {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 20%;
+        background-color: black;
+        padding: 7%;
+        color: #CEA436;
+        border-radius: 15px;
+        border-color: #CEA436;
+        border-width: 3px;
+        font-weight: bold;
+        font-size: medium;
+    }
+    
+    .EditPosterButton {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 20%;
+        background-color: #CEA436;
+        padding: 7%;
+        color: #000000;
+        border-radius: 15px;
+        border-color: #000000;
+        border-width: 3px;
+        font-weight: bold;
+        font-size: medium;
+    }
+    
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

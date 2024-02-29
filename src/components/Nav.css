@@ -17,13 +17,24 @@
 }
 
 
-  /* Media query para dispositivos móviles */
-@media (max-width: 768px) {
-.navbar {
-    flex-direction: column; /* Cambia a dirección de columna en dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .nav {
+        justify-content: space-around;
+        align-items: center;
+        padding: 1% 5%; /* Ajusta el padding según tus necesidades */
     }
 
-.right-section {
-    margin-top: 10px; /* Ajusta el espacio entre la imagen y el botón en dispositivos móviles */
+    .logo-container {
+        max-width: 80%;
+        height: auto;
     }
+    
+    .logo {
+        width: 80%;
+        height: auto;
+    }
+    
+    .right-section {
+        margin-top: 10px; 
+}
 }
