@@ -1,6 +1,8 @@
 .button-add {
     width: 70%;
+    width: 70%;
     display: flex;
+    justify-content: center;
     justify-content: center;
     align-items: center;
     background-color: black;
