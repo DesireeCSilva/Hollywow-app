@@ -56,7 +56,7 @@ const CardDetail = () => {
                 </div>
                 <div className="details">
                 <h2 className="card-detail__name">{poster.name}</h2>
-                <div className='descriptiones'>
+                <div className='descriptions'>
                 <p className="card-detail__director"><span className='director'>Director:</span> {poster.director}</p>
                 <p className="card-detail__year"><span className="year">Year</span>: {poster.year}</p>
                 </div>

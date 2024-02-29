@@ -1,7 +1,7 @@
 .button-edit{
   color: #9C325C ;
   background-color:#CEA436;
-  padding: 5px 17px;
+  padding: 4px 17px;
   border-radius: 6px;
   font-size: 13px;
   font-weight: bold;
@@ -9,7 +9,16 @@
   text-decoration: none;
   width: 19%;
   height: 15%;
-  margin-top: 4.2%;
+  margin-top: 4.5%;
   margin-right: 15%;
 } 
 
+@media only screen and (max-width: 900px) {
+  .button-edit {
+    padding: 3.5px 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+}

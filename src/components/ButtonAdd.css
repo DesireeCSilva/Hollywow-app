@@ -1,18 +1,12 @@
 .button-add {
     width: 70%;
-    width: 70%;
     display: flex;
-    justify-content: center;
     justify-content: center;
     align-items: center;
     background-color: black;
     border: 2px solid rgb(206, 164, 54);
     border-radius: 10px;
-<<<<<<< HEAD
     font-family:  "Jost", sans-serif;
-=======
-    font-family:  "jost", sans-serif;
->>>>>>> c97670dd49452ee674e7aefe46f942b47246261e
     color:rgb(206, 164, 54);
     padding: 10px;
     font-weight: bold;
@@ -25,8 +19,9 @@
     .button-add {
         display: flex;
         justify-content: center;
-        padding: 2px 20px;
+        padding: 2px 8px;
         font-weight: bold;
-        font-size: 8px;
+        font-size: 7px;
+        margin-bottom: 30%;
     }
 }
