@@ -190,7 +190,7 @@ input {
     font-size: 120%;
 }
 
-.buttons{
+ .buttons{
     display: flex;
     justify-content: space-between;
     margin-top: 7%;
