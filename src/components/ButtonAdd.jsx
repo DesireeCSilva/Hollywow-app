@@ -1,10 +1,12 @@
+//ButtonAdd de la Nav que redirige a la página de CreateForm (formulario de añadir póster).
+
 import React from 'react';
 import './ButtonAdd.css';
 import { Link } from 'react-router-dom';
 
-const ButtonAdd = (url) => {
+const ButtonAdd = () => {
   return (
-    <Link to="http://localhost:5173/create" className="button-add" url>Añadir póster</Link>
+    <Link to="http://localhost:5173/create" className="button-add">Añadir póster</Link>
   )
 }
 

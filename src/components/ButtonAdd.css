@@ -1,14 +1,21 @@
 .button-add {
+    width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: black;
     border: 2px solid rgb(206, 164, 54);
     border-radius: 10px;
+<<<<<<< HEAD
     font-family:  "Jost", sans-serif;
+=======
+    font-family:  "jost", sans-serif;
+>>>>>>> c97670dd49452ee674e7aefe46f942b47246261e
     color:rgb(206, 164, 54);
     padding: 10px;
     font-weight: bold;
+    font-size: small;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 900px) {

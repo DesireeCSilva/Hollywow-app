@@ -9,20 +9,20 @@
     },
     {
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
-      "name": "THE GODFATHER",
+      "name": "EL PADRINO",
       "director": "Francis Ford Coppola",
       "year": 1972,
       "id": "2"
     },
     {
       "imageUrl": "https://i.pinimg.com/originals/b7/ef/46/b7ef46889d98ab8840058835d3f6cfb9.jpg",
-      "name": "BACK TO THE FUTURE",
+      "name": "REGRESO AL FUTURO",
       "director": "Robert Zemeckis",
       "year": 1985,
       "id": "3"
     },
     {
-      "imageUrl": "https://media.senscritique.com/media/000008232652/source_big/Le_Monde_de_Narnia_Chapitre_1_Le_Lion_la_Sorciere_blanche_et.jpg",
+      "imageUrl": "https://i.ebayimg.com/images/g/L9AAAOSwTg9dd8Tj/s-l1600.jpg",
       "name": "CRONICAS DE NARNIA",
       "director": "Andrew Adamson",
       "year": 2005,
@@ -43,18 +43,46 @@
       "id": "6"
     },
     {
-      "id": "0ba7",
       "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
-      "name": "GHOSTBUSTERS",
+      "name": "CAZAFANTASMAS",
       "director": "Ivan Reitman",
-      "year": "1984"
+      "year": "1984",
+      "id": "899c"
     },
     {
-      "id": "899c",
+      "imageUrl": "https://media.services.cinergy.ch/media/box1600/01c0b6f75b9cc6c57ad951e15d822d66b060955a.jpg",
+      "name": "AFTERSUN",
+      "director": "Charlotte Wells",
+      "year": "2022",
+      "id": "bdd7"
+    },
+    {
+      "id": "bfd3",
       "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
-      "name": "GHOSTBUSTERS",
-      "director": "Ivan Reitman",
-      "year": "1984"
+      "name": "Hola hola",
+      "director": "Andrea y Alba",
+      "year": "1990"
+    },
+    {
+      "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
+      "name": "hello",
+      "director": "Andrea y Alba",
+      "year": "1990",
+      "id": "1aec"
+    },
+    {
+      "id": "bd88",
+      "imageUrl": "https://m.media-amazon.com/images/I/810FSIwEPPL._AC_UF1000,1000_QL80_.jpg",
+      "name": "Prueba",
+      "director": "Hola",
+      "year": "1960"
+    },
+    {
+      "id": "8913",
+      "imageUrl": "https://m.media-amazon.com/images/I/810FSIwEPPL._AC_UF1000,1000_QL80_.jpg",
+      "name": "pepepe",
+      "director": "nngngn",
+      "year": "1234"
     }
   ]
 }

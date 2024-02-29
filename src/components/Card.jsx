@@ -1,7 +1,10 @@
+//Card se muestra en la HomePage con el array de los datos de cada póster.
+
 import React from 'react';
 import styled from 'styled-components';
 import { deletePoster } from '../services/posterServices';
-import ButtonEdit from '../components/ButtonEdit';
+//import ButtonEdit from '../components/ButtonEdit';
+import ButtonDetail from '../components/ButtonDetail';
 
 
 const PosterCard = styled.div`
@@ -14,12 +17,13 @@ const PosterCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 `;
 
 const PosterImage = styled.img`
+    object-fit: cover;
     max-width: 100%;
     height: auto;
-    object-fit: cover;
     border: 0.5em solid white;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -42,11 +46,13 @@ const ButtonDelete = styled.button`
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
+  cursor: pointer;
+  margin-right:10%;
   `;
 
 const Card = ({ posters }) => {
     const clickDelete = async (id) => {
-            const result = await deletePoster(id);
+            const result = await deletePoster(id); //Llama a nuestra petición fetch declarada en "./services/posterServices.js"
     };
 
     return ( 
@@ -60,8 +66,11 @@ const Card = ({ posters }) => {
                     <p className="poster-card__director">Director: {poster.director}</p>
                     <p className="poster-card__year">Year: {poster.year}</p>
                 </PosterInfo>
-                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">DELETE</ButtonDelete>
-                <ButtonEdit id={poster.id}/>
+                <div className='buttons'>
+                <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
+                {/* <ButtonEdit id={poster.id}/> */}
+                <ButtonDetail id={poster.id}/>
+                </div>
             </PosterCard>
         </div> 
         ))}
