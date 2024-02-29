@@ -55,34 +55,6 @@
       "director": "Charlotte Wells",
       "year": "2022",
       "id": "bdd7"
-    },
-    {
-      "id": "bfd3",
-      "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
-      "name": "Hola hola",
-      "director": "Andrea y Alba",
-      "year": "1990"
-    },
-    {
-      "imageUrl": "https://image.tmdb.org/t/p/original/rNDxz7Y8rRigoLqa6Iy7noNp5D9.jpg",
-      "name": "hello",
-      "director": "Andrea y Alba",
-      "year": "1990",
-      "id": "1aec"
-    },
-    {
-      "id": "bd88",
-      "imageUrl": "https://m.media-amazon.com/images/I/810FSIwEPPL._AC_UF1000,1000_QL80_.jpg",
-      "name": "Prueba",
-      "director": "Hola",
-      "year": "1960"
-    },
-    {
-      "id": "8913",
-      "imageUrl": "https://m.media-amazon.com/images/I/810FSIwEPPL._AC_UF1000,1000_QL80_.jpg",
-      "name": "pepepe",
-      "director": "nngngn",
-      "year": "1234"
     }
   ]
 }
