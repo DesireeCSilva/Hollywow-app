@@ -58,7 +58,7 @@ const CardDetail = () => {
                 <h2 className="card-detail__name">{poster.name}</h2>
                 <div className='descriptions'>
                 <p className="card-detail__director"><span className='director'>Director:</span> {poster.director}</p>
-                <p className="card-detail__year"><span className="year">Year</span>: {poster.year}</p>
+                <p className="card-detail__year"><span className="year">Año</span>: {poster.year}</p>
                 </div>
                 <div className='buttons'>
                 <ButtonDelete onClick={() => clickDelete(poster.id)} className="button-delete">ELIMINAR</ButtonDelete>
